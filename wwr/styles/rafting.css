@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #396148;
+    --secondary-color: #ACB2A9;
+    --accent1-color: #5A4C49;
+    --accent2-color: #dceed9;
+}
+
+h1 {
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    position: absolute;
+    top: 29%;
+    right: 73%;
+}
+
+article img{
+    background-color: lightgrey;
+    width: 200px;
+    float: right;
+}
+
+article {
+    position: absolute;
+    top: 33%;
+    right:70%;
+    width: 500px;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+header nav{
+    text-decoration: none;
+}
+
+h2 { 
+    color: var(--primary-color);
+}
+
+section p { 
+    color: var(--primary-color);
+}
+
+.sociallinks a{
+    text-decoration: none;
+}
+
+section img{
+    display: block;
+}
+
+
