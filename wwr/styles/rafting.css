@@ -11,7 +11,7 @@
 
 .hero img {
     display: block;
-    width:100%
+    width:100%;
     height: auto;
 }
 
@@ -19,9 +19,9 @@ h1{
     color: var(--primary-color);
     background-color: var(--accent2-color);
     position: absolute;
-    top: 29%;
-    right: 73%;
-    max-width: 300px;
+    top: 10%;
+    right: 40%;
+    max-width: 500px;
 }
 
 article img{
@@ -32,8 +32,8 @@ article img{
 
 article {
     position: absolute;
-    top: 33%;
-    right:70%;
+    top: 15%;
+    right:37%;
     width: 500px;
     color: var(--primary-color);
     background-color: var(--accent2-color);
