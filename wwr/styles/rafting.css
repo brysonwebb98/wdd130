@@ -5,18 +5,23 @@
     --accent2-color: #dceed9;
 }
 
-#hero img{
+.hero{
+    position: relative;
+}
+
+.hero img {
     display: block;
     width:100%
     height: auto;
 }
 
-h1 {
+h1{
     color: var(--primary-color);
     background-color: var(--accent2-color);
     position: absolute;
     top: 29%;
     right: 73%;
+    max-width: 300px;
 }
 
 article img{
