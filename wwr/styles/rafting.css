@@ -23,7 +23,7 @@ header img {
 
 body {
     color: var(--secondary-color);
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ section p {
 }
 
 section div img {
-    width: 325px;
+    width: 250px;
     height: 200px;
     justify-content: space-around;
 }
