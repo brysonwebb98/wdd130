@@ -55,16 +55,25 @@ section p {
 
 .history {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     width: 100%;
+    margin: 30px;
+    gap: 30px;
 }
 
 .history img {
     width: 100%; 
     height: auto; 
-    margin: 30px;
+    margin: 15px;
+}
+
+.history p {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color: var(--accent1-color)
 }
 
 
