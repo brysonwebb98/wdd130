@@ -1,0 +1,60 @@
+h1, legend {
+    color: darkblue;
+}
+
+form{
+    background-color: rgb(241, 241, 241);
+    width: 700px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid lightsteelblue;
+    font-size: 25px;
+}
+
+header{
+    width: 700px;
+    text-align: center;
+    margin: 20px;
+}
+
+fieldset {
+    margin: 25px;
+    padding: 20px;
+}
+
+label, select, input {
+    margin-bottom: 10px;
+}
+
+select {
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    font-size: 30px;
+    background-color: rgb(245, 234, 235);
+    color: darkblue;
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+input[type=checkbox] {
+    height: 20px;
+    width: 20px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+/* .column1 {
+    grid-template-columns: 3fr 1fr;
+    /* I never put in a class of column 1? 
+}*/
