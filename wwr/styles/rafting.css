@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #396148;
-    --secondary-color: #ACB2A9;
-    --accent1-color: #701804;
-    --accent2-color: #dceed9;
+    --primary-color: #5C9B6A;
+    --secondary-color: #A58F7D;   
+    --accent1-color: #000000;   
+    --accent2-color: #E0C48B;  
+    
     --font-family: "Oswald"; font-size: 30px;
     --font2-family: "Inter"; font-size: 25px;
 }
@@ -13,6 +14,7 @@ header {
     align-items: center;
     justify-items: center;
     justify-content: space-around;
+    font-size: 40px;
 }
 
 nav { 
@@ -23,7 +25,7 @@ nav {
 
 /* LOGO IMAGE */
 header img {
-    width: 150px;
+    width: 200px;
 }
 
 body {
@@ -163,3 +165,136 @@ footer {
     justify-content: flex-end;
     align-items: center;
 }
+
+
+/* CONTACT US PAGE PART 1: */
+/* CONTACT US PAGE PART 1: */
+/* CONTACT US PAGE PART 1: */
+
+main{
+    width: 1500px;
+}
+
+.company_info  {
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+.grid_structure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+    align-items: center;
+    align-content: space-between;
+    font-size: 30px;
+}
+
+.company_info h1 {
+    display: grid;
+    justify-content: center;
+}
+
+
+/* CONTACT US PAGE PART 2: */
+/* CONTACT US PAGE PART 2: */
+/* CONTACT US PAGE PART 2: */
+.employee h1{
+    display: grid;
+    justify-content: center;
+}
+
+.employee_photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.employee_photos img {
+    width: 100%;
+    height: 300px;
+    justify-items: left;
+}
+
+.employee_photos figcaption{
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+}
+
+
+/* CONTACT US PAGE PART 3 SUBMITTING: */
+/* CONTACT US PAGE PART 3 SUBMITTING: */
+/* CONTACT US PAGE PART 3 SUBMITTING: */
+
+form{
+    background-color: var(--accent2-color);
+    width: 95%;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid var(--primary-color);
+    font-size: 30px;
+    color: var(--accent1-color)
+}
+
+form {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 30px;
+}
+
+.submit{
+    text-align: center;
+}
+
+fieldset{
+    margin: 25px;
+    padding: 30px;
+    width: 100%;
+}
+
+input[type=radio]{
+    margin-bottom: 30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+input[type=email],[type=text] {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.wireframe a{
+    text-decoration: none;
+    font-size: 30px;
+    color: darkblue;
+    border-left: 50px;
+}
+
